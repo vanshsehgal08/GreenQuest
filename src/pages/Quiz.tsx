@@ -14,7 +14,7 @@ import React, { useEffect } from 'react';
 export default function Quiz() {
   useEffect(() => {
     // Directly redirect to the homepage
-    window.location.href = "http://localhost:3000";
+    window.location.href = "https://quiz-functionality.vercel.app/";
   }, []);
 
   return null; // No UI needed, the user is redirected immediately
