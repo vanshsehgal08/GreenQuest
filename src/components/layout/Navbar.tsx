@@ -8,8 +8,8 @@ export default function Navbar() {
   const location = useLocation();
   
   return (
-    <nav className="bg-green-700 dark:bg-green-900 text-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4">
+    <nav className="bg-green-600 dark:bg-green-800 text-white shadow-lg">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Leaf className="h-8 w-8" />
