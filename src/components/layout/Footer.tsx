@@ -2,7 +2,7 @@ import React from 'react';
 import { Leaf, Github, Twitter, Linkedin } from 'lucide-react';
 import FooterSection from './FooterSection';
 import SocialLinks from './SocialLinks';
-import { FOOTER_QUICK_LINKS, FOOTER_RESOURCES } from '../../constants/navigation';
+import { FOOTER_QUICK_LINKS, FOOTER_RESOURCES } from '../../../src/constants/navigation';
 
 export default function Footer() {
   return (
