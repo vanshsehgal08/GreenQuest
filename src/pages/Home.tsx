@@ -26,7 +26,7 @@ export default function Home() {
             description="Get instant answers to your environmental questions with our AI-powered guide."
             icon={MessageSquare}
             bgColor="bg-green-600 dark:bg-green-700"
-            link="/ai-assistant"
+            link="https://chat-bot-functionality.vercel.app/"
           />
           <FeatureCard
             title="Educational Videos"
