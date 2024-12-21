@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function Videos() {
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-green-800 mb-4">Educational Videos</h1>
-      <p className="text-gray-600">Coming soon...</p>
-    </div>
-  );
+  useEffect(() => {
+    // Directly redirect to the homepage
+    window.location.href = "https://video-functionality.vercel.app/";
+  }, []); // Empty dependency array to ensure this runs only once, on mount
+
+  return null; // No UI needed, the user is redirected immediately
 }
