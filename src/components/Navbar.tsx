@@ -12,7 +12,7 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="https://chat-bot-functionality.vercel.app/" className="hover:text-green-200 transition-colors">AI Assistant</a>
-            <a href="#videos" className="hover:text-green-200 transition-colors">Videos</a>
+            <a href="https://video-functionality.vercel.app/" className="hover:text-green-200 transition-colors">Videos</a>
             <a href="#calculator" className="hover:text-green-200 transition-colors">CO2 Calculator</a>
             <a href="https://quiz-functionality.vercel.app/" className="hover:text-green-200 transition-colors">Quiz</a>
             <a href="#news" className="hover:text-green-200 transition-colors">News</a>
